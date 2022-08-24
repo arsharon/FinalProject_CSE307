@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>SignUp</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- partial:index.partial.html -->
+    <div class="box-form">
+      <div class="left">
+        <div class="overlay">
+          <h1>ADWSS</h1>
+          <p>Automated Domestic Worker Service System</p>
+        </div>
+      </div>
+
+      <div class="right">
+        <h5>SignUp</h5>
+        <p>
+          Have an account? Click Here to login <a href="login.html"> SignIn</a> It is very simple...
+        </p>
+        <div class="inputs">
+          <input type="text" placeholder="First Name" />
+          <br />
+          <input type="password" placeholder="Last Name" />
+          <input type="text" placeholder="phone number" />
+          <br />
+          <input type="password" placeholder="NID number" />
+          <input type="text" placeholder="Password" />
+          <br />
+          <input type="password" placeholder="Confirm Password" />
+        </div>
+        
+        <br /><br />
+
+        <div>
+          <select
+            class="form-select form-select-lg m-5 py-5"
+            aria-label=".form-select-lg example">
+            <option selected>Sign Up As:</option>
+            <option value="1">Admin</option>
+            <option value="2">Employer</option>
+            <option value="3">Worker</option>
+          </select>
+        </div>
+        <div class="remember-me--forget-password">
+          <!-- Angular -->
+          <label>
+            <input type="checkbox" name="item" checked />
+            <span class="text-checkbox">Remember me</span>
+          </label>
+          <p>forget password?</p>
+        </div>
+
+        <br />
+        <a href="Home.html"><button>SignUp</button></a>
+      </div>
+    </div>
+    </div>
+    <!-- partial -->
+  </body>
+</html>
